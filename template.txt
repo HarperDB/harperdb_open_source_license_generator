@@ -1,0 +1,9 @@
+
+OPEN SOURCE PACKAGE: {{dependency_name}}
+REPOSITORY:          {{repository}}
+
+LICENSE TYPE:        {{license_type}} License
+
+LICENSE & NOTICE:
+{{license_text}}
+-----------------------------------------------------------------------------
