@@ -9,7 +9,7 @@ const template = fs.readFileSync('./template.txt').toString();
     let master_licence_text = '';
     let unique_summary = {};
 
-    let rep = await licenser.reporter.generate({packagePath: config.harperdb_project_path, depth: 100, useDevDependencies:false});
+    let rep = await licenser.reporter.generate({packagePath: config.project_path, depth: 100, useDevDependencies:false});
     let entries = rep.plain();
     entries.licenses.forEach(entry=>{
         let dependency_name = entry.name;

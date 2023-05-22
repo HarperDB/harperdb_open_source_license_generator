@@ -57,3 +57,12 @@ typings/
 # dotenv environment variables file
 .env
 
+# jetbrains
+.idea
+
+# don't had license files by accident
+license.md
+license.txt
+
+# also ignore this json file
+package-lock.json
