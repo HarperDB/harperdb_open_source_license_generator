@@ -60,7 +60,7 @@ typings/
 # jetbrains
 .idea
 
-# don't had license files by accident
+# don't add license files by accident
 license.md
 license.txt
 
