@@ -1,9 +1,10 @@
+## {{dependency_name}}
 
 OPEN SOURCE PACKAGE: {{dependency_name}}
 REPOSITORY:          {{repository}}
 
 LICENSE TYPE:        {{license_type}} License
 
-LICENSE & NOTICE:
+### LICENSE & NOTICE:
 {{license_text}}
 -----------------------------------------------------------------------------

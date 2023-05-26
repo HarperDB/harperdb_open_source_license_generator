@@ -1,6 +1,6 @@
 let config = {
-    harperdb_project_path:'/home/kyle/code/harperdb',
-    output_file: 'license.txt'
+    project_path: process.env.project_path || '.',
+    output_file: process.env.output_file || 'license.md'
 };
 
 module.exports = config;
