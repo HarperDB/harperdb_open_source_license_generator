@@ -3,7 +3,7 @@ const compare_versions = require("compare-versions");
 const markup = require("markup-js");
 const fs = require("fs");
 const config = require("./config");
-const template = fs.readFileSync('./template.txt').toString();
+const template = fs.readFileSync(config.template_file).toString();
 
 (async ()=> {
     let master_licence_text = '';
